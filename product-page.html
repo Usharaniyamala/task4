@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page - Coffee Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product-page.html">Product Page</a></li>
+                <li><a href="portfolio-page.html">Portfolio</a></li>
+                <li><a href="todo-list.html">To-Do List</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Product Page Section -->
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-filters">
+            <button onclick="filterMenu('hot')">Hot Coffee</button>
+            <button onclick="filterMenu('cold')">Cold Coffee</button>
+            <button onclick="filterMenu('pastry')">Pastries</button>
+            <body style="background-color:powderblue;"></body>
+        </div>
+
+        <div class="menu-items" id="menu-items">
+            <!-- Products will be dynamically added here -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Online Coffee Shop. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

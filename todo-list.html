@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List - Coffee Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product-page.html">Product Page</a></li>
+                <li><a href="portfolio-page.html">Portfolio</a></li>
+                <li><a href="todo-list.html">To-Do List</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- To-Do List Section -->
+    <section id="notes">
+        <h2>My Notes</h2>
+        <div class="note-container">
+            <textarea id="note-input" placeholder="Write your your notes here"></textarea>
+            <button id="add-note" onclick="addNote()">Add Note</button>
+            <div id="note-list"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Online Coffee Shop. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
